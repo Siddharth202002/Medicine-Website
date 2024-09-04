@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .logo img {
+  height: 50px;
+  margin-right: 200px;
+}
+header .ul ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+header .ul ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+
+/* main section */
+.mainSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* left section */
+.mainSection .mainLeftSection {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+.mainSection .mainLeftSection h1 {
+  font-size: 4rem;
+}
+
+.mainSection .mainLeftSection .button button {
+  padding: 5px 40px;
+  border-radius: 15px;
+  color: white;
+  background-color: #20bc7e;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+}
+
+.mainSection .mainLeftSection .lowerAngle img {
+  position: absolute;
+  right: 5px;
+  bottom: 50px;
+}
+/* rigth section  */
+.mainSection .mainRightSection {
+  position: relative;
+  bottom: 150px;
+  right: 120px;
+}
+
+.mainSection .mainRightSection .img1 {
+  position: absolute;
+  z-index: 1;
+  transform: scale(1.7);
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.mainSection .mainRightSection .img2 {
+  position: absolute;
+
+  z-index: 2;
+  transform: scale(1.5);
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.mainSection .mainRightSection .img3 {
+  position: absolute;
+  z-index: 3;
+  transform: scale(2.8);
+  margin-left: 50px;
+}
+
+/* main section about us */
+.mainSectionAboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.mainSectionAboutUs .upper h2 {
+  text-align: center;
+  line-height: 100px;
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #20bc7e;
+}
+.mainSectionAboutUs .upper p {
+  font-weight: 550;
+  line-height: 25sspx;
+  font-size: 1.5rem;
+}
+.mainSectionAboutUs .upper p .para2 {
+  margin-left: 30px;
+}
+.mainSectionAboutUs .upper p .para3 {
+  margin-left: 90px;
+}
+/* main section lower */
+.mainSectionAboutUs .lower {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainSectionAboutUs .lower div {
+  border: none;
+
+  padding: 25px 60px;
+  border-radius: 10px;
+  box-shadow: 0.2px 0.2px 10px 3px gray;
+}
+.mainSectionAboutUs .first .span1 {
+  color: #20bc7e;
+  margin-left: 12px;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.mainSectionAboutUs .first p {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.mainSectionAboutUs .second .span2 {
+  color: #20bc7e;
+  font-weight: bolder;
+  margin-left: 8px;
+  font-size: 1.5rem;
+}
+.mainSectionAboutUs .second p {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.mainSectionAboutUs .third .span3 {
+  color: #20bc7e;
+  font-weight: bolder;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+.mainSectionAboutUs .third p {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+/* contact us main section */
+.contactUsMainSection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  height: 350px;
+  width: 300px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin: auto;
+  justify-content: center;
+  box-shadow: 0.2px 0.2px 10px 3px gray;
+}
+.contactUsMainSection h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.contactUsMainSection form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.contactUsMainSection form label {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.contactUsMainSection form .form1 #userName {
+  border-radius: 5px;
+  padding: 5px;
+
+  border: none;
+  width: 90%;
+}
+.contactUsMainSection form .form2 #userEmail {
+  border-radius: 5px;
+  padding: 5px;
+
+  border: none;
+  width: 90%;
+}
+.contactUsMainSection form .form3 #userMessage {
+  border-radius: 5px;
+  padding: 5px;
+
+  border: none;
+  width: 90%;
+}
+.contactUsMainSection form button {
+  margin-right: 20px;
+  padding: 8px 0px;
+  border-radius: 10px;
+  background-color: #20bc7e;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+}
