@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="logo"><img src="./assets/images/../images/logo.png" alt=""></div>
-        <div class="ul">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="./aboutUs.html" 
-                    target="_blank">About Us</a></li>
-                <li><a href="./aboutUs.html" target="_blank">Contact Us</a></li>
-            </ul>
-        </div>
-        </header>
-        
-    <section class="contactUsMainSection"> 
-        <h1>Contact Form</h1>
-        
-        
-            <form action="">
-               
-                <div class="form1">
-                    <label for="userName" >Name</label>
-                    <br>
-                    <input type="text" placeholder="Enter your name" id="userName">
-                </div>
-               
-                
-                <div class="form2">
-                    <label for="userEmail">Email</label>
-                    <br>
-                    <input type="email" name="" id="userEmail"placeholder="Enter your email  " >
-                </div>
-               
-                
-                <div class="form3">
-                    <label for="userMessage">
-                        Message
-                    </label>
-                    <br>
-                    <textarea name="" id="userMessage" placeholder="Enter your message" rows="5" ></textarea>
+      <div class="logo">
+        <img src="./assets/images/../images/logo.png" alt="" />
+      </div>
+      <div class="ul">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="./aboutUs.html" target="_blank">About Us</a></li>
+          <li><a href="./aboutUs.html" target="_blank">Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
 
-                    <br>
-                    
-                </div>
-                <button>
-                    Submit
-                </button>
-               
-            </form>
-        
+    <section class="contactUsMainSection">
+      <h1>Contact Form</h1>
+
+      <form action="">
+        <div class="form1">
+          <label for="userName">Name</label>
+          <br />
+          <input type="text" placeholder="Enter your name" id="userName" />
+        </div>
+
+        <div class="form2">
+          <label for="userEmail">Email</label>
+          <br />
+          <input
+            type="email"
+            name=""
+            id="userEmail"
+            placeholder="Enter your email  "
+          />
+        </div>
+
+        <div class="form3">
+          <label for="userMessage"> Message </label>
+          <br />
+          <textarea
+            name=""
+            id="userMessage"
+            placeholder="Enter your message"
+            rows="5"
+          ></textarea>
+
+          <br />
+        </div>
+        <button>Submit</button>
+      </form>
     </section>
-</body>
+  </body>
 </html>

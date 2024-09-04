@@ -6,10 +6,12 @@
 body {
   display: flex;
   flex-direction: column;
-  gap: 250px;
+  gap: 15vh;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
+  margin-top: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -48,8 +50,8 @@ header .ul ul li a {
 }
 
 .mainSection .mainLeftSection .button button {
-  padding: 5px 40px;
-  border-radius: 15px;
+  padding: 20px 40px;
+  border-radius: 105px;
   color: white;
   background-color: #20bc7e;
   font-weight: 700;
@@ -169,9 +171,8 @@ header .ul ul li a {
   display: flex;
   flex-direction: column;
   gap: 15px;
-
-  height: 350px;
-  width: 300px;
+  padding: 20px;
+  width: 30%;
   background-color: whitesmoke;
   border-radius: 10px;
   margin: auto;
@@ -224,4 +225,8 @@ header .ul ul li a {
   font-size: 1.2rem;
   font-weight: 600;
   border: none;
+}
+
+textarea{
+  resize: none;
 }
